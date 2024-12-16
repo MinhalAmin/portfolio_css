@@ -1,0 +1,65 @@
+/* Services.css */
+.services-container {
+    background-color: #134e4a; /* Equivalent to Tailwind bg-teal-950 */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem; /* Equivalent to md:space-x-16 */
+    padding: 3rem 8rem; /* Equivalent to px-32 */
+    max-width: 1440px; /* Equivalent to max-w-screen-2xl */
+    margin: 0 auto;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem; /* Equivalent to pt-16 or pt-14 */
+    align-items: center;
+  }
+  
+  .service-item img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .service-title {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800; /* Equivalent to font-extrabold */
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .service-description {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500; /* Equivalent to font-medium */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    padding-top: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.05em; /* Equivalent to tracking-tighter */
+    padding-left: 1rem; /* Add some padding for the last section */
+  }
+  
+  .service-description-bold {
+    font-weight: 700; /* Equivalent to font-bold */
+    font-size: 1.25rem; /* Equivalent to text-2xl */
+    animation: pulse 1.5s infinite; /* Equivalent to animate-pulse */
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  /* Optional: Pulse animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

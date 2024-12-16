@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #134e4a; /* Equivalent to Tailwind bg-teal-950 */
+    color: white;
+    max-width: 1440px; /* Equivalent to Tailwind max-w-screen-2xl */
+    margin: 0 auto;
+    padding: 1.5rem 5rem; /* Equivalent to px-20 py-6 */
+  }
+  
+  .header-logo {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-family: serif;
+    font-weight: 800; /* Equivalent to font-extrabold */
+    padding-left: 3.5rem; /* Equivalent to pl-14 */
+    padding-top: 2.5rem; /* Equivalent to pt-10 */
+    margin-right: auto; /* Push the logo to the left */
+  }
+  
+  .header-nav {
+    padding-right: 2.75rem; /* Equivalent to pr-11 */
+    transition: color 0.3s ease-in-out; /* Equivalent to transition-colors duration-300 */
+  }
+  
+  .header-nav ul {
+    display: flex;
+    gap: 2.5rem; /* Equivalent to space-x-10 */
+    margin-right: 3rem; /* Equivalent to md:mr-12 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    font-weight: bold;
+  }
+  
+  .header-nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header-nav ul li a:hover {
+    color: #67e8f9; /* Equivalent to hover:text-teal-200 */
+  }
+  

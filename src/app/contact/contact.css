@@ -1,0 +1,52 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: #134e4a; /* Equivalent to bg-teal-950 */
+    height: 100vh; /* Full screen height */
+    max-width: 1440px; /* Equivalent to max-w-screen-2xl */
+    margin: 0 auto;
+    padding: 0 2rem; /* For spacing */
+  }
+  
+  .contact-heading {
+    color: white;
+    font-size: 3rem; /* Equivalent to text-6xl */
+    font-weight: 800; /* Equivalent to font-extrabold */
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 2rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+    text-align: left;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .contact-link {
+    color: white;
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    font-weight: 700; /* Equivalent to font-bold */
+    text-decoration: underline;
+    letter-spacing: 0.05em; /* Equivalent to tracking-wider */
+    text-align: left;
+  }
+  
+  .contact-link:hover {
+    color: #a3f1ff; /* Optional: add hover effect */
+    transition: color 0.3s ease;
+  }
+  

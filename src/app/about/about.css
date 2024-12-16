@@ -1,0 +1,56 @@
+/* About.css */
+.about-container {
+    background-color: #134e4a; /* Equivalent to Tailwind bg-teal-950 */
+    height: 100%; /* Full height */
+    max-width: 1440px; /* Equivalent to max-w-screen-2xl */
+    margin: 0 auto;
+  }
+  
+  .about-heading {
+    color: white;
+    font-size: 3.75rem; /* Equivalent to text-6xl */
+    font-weight: 800; /* Equivalent to font-extrabold */
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .about-text-section {
+    color: white;
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    font-family: sans-serif;
+    font-weight: 500; /* Equivalent to font-medium */
+    padding-top: 2rem; /* Equivalent to pt-8 */
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .about-bold-text {
+    font-weight: bold;
+    font-size: 1.25rem; /* Equivalent to text-2xl */
+    animation: pulse 1s ease-in-out infinite;
+  }
+  
+  .skills-heading {
+    color: white;
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-family: sans-serif;
+    font-weight: 800; /* Equivalent to font-extrabold */
+    text-align: center;
+    letter-spacing: 0.05em; /* Equivalent to tracking-wider */
+    padding-top: 1.5rem; /* Equivalent to pt-6 */
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    padding-left: 3.5rem; /* Equivalent to pl-14 */
+    gap: 2rem; /* Space between items */
+    justify-items: center;
+    padding-top: 1rem; /* Equivalent to pt-4 */
+  }
+  
+  .skill-image {
+    padding-top: 1.75rem; /* Equivalent to pt-7 */
+    padding-left: 0.5rem; /* Equivalent to pl-2 */
+  }
+  
